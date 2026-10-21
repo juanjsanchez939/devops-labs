@@ -1,0 +1,15 @@
+# Secretos y credenciales
+*.pem
+*.key
+id_rsa*
+.env
+.env.*
+
+# Terraform state y temporales
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Logs
+*.log
